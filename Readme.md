@@ -1,33 +1,66 @@
+# Simon Memory Game
 
-The Simon Memory Game
-The Simon Memory Game is a browser-based re-creation of the classic electronic memory skill game first released in 1978 by Ralph H. Baer and Howard J. Morrison. 
-Inspired by the arcade game Touch Me and named after the childhood game Simon Says, Simon challenges players to repeat an increasingly complex sequence of visual cues. The device uses four coloured buttons, each of which lights up to form a pattern. T
-he player's goal is simple: repeat the pattern. But with each successful round, the game becomes faster and the sequence gets longer.
+## Project Overview
 
+A browser-based re-creation of the classic electronic memory game originally released in 1978 by Ralph H. Baer and Howard J. Morrison. Inspired by the arcade game Touch Me and named after Simon Says, this version challenges players to repeat an increasingly complex sequence of visual signals using four colored buttons.
 
+---
 
+## Game Description
 
+### Starting the Game
+- Click the START button.
+- Game status indicator turns from RED to GREEN.
+- A 3-second delay occurs before the first signal is shown.
 
+### Simon Flashes a Colour
+- One button flashes.
+- The player must click the same color to continue.
 
+### Sequence Builds
+- Simon repeats the previous sequence and adds one more flash.
+- The player must repeat the entire sequence correctly.
 
-Game Description
-Starting the Game
-Click the START button to begin. The game status indicator (a light beneath the START button) changes from RED to GREEN. The game waits 3 seconds, then the first signal is shown.
+### Difficulty Increases
+- Each round adds a new signal to the sequence.
+- The player must keep up to avoid mistakes.
 
-Simon Flashes a Colour
-One button flashes. The player must click the same coloured button to continue.
+### Speed Progression
+- Speed increases automatically after:
+  - 5th signal
+  - 9th signal
+  - 13th signal
 
-Sequence Builds
-Simon repeats the first signal and adds one more. The player must now repeat both signals in the correct order.
+### Game Over Conditions
+- Incorrect button click or no input within 5 seconds.
+- All four buttons flash five times.
+- Status indicator resets to RED.
+- Press START to try again.
 
-Difficulty Increases
-With each new round, Simon adds one more button to the sequence. The player must repeat the full pattern correctly to continue.
+### Score Display
+- Current Score: Shown to the right of the START button.
+- High Score: Shown to the left, persists across game attempts.
 
-Speed Progression
-After the 5th, 9th, and 13th signals in a round, the game automatically increases the speed of the sequence display.
+---
 
-Game Over Conditions
-If the player presses the wrong button or takes longer than 5 seconds to respond, all four buttons flash five times. This indicates failure, and the game ends. The status indicator turns back to RED, and the player must press START to begin again.
+## Technologies Used
 
-Score Display
-After each game, the number of correctly repeated signals is shown in the display to the right of the START button. The highest score achieved across all attempts is shown to the left.
+- HTML
+- CSS
+- JavaScript (Vanilla)
+
+---
+
+## How to Play
+
+1. Open `index.html` in a browser.
+2. Click START to begin.
+3. Follow the flashing buttons by clicking them in the correct order.
+4. Try to beat your high score.
+
+---
+
+## Notes
+
+- Fully interactive, real-time input validation.
+- No external libraries required.
