@@ -1,0 +1,116 @@
+button{
+    background-color: grey;
+    position: relative;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius : 12px;
+    font-size:20px;
+    top: 380px;
+    z-index: 99;
+    font-family: 'Orbitron';
+
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+  }
+
+.button:active {
+    background-color: rgb(75, 72, 72);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.circle {
+    width: 320px;
+    height: 320px;
+    background: black;
+    border-radius: 50%;
+    position: relative;
+   top: 200px;
+  
+}
+.circlelast{
+    width:10px;
+    height:10px;
+    background :red;
+    position: relative;
+    top: 400px;
+    border-radius : 50%;
+    z-index: 99;
+}
+.circle2{
+    width: 140px;
+    height: 140px;
+    background: green;
+    border-radius: 50%;
+    position: relative;
+   top: -160px;
+   left: -120px;
+   border: 6px solid black; 
+}
+.circle3{
+    width: 140px;
+    height: 140px;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+   top: -310px;
+   left: 120px;
+   border: 6px solid black; 
+  
+ 
+}
+.circle4{
+    width: 135px;
+    height: 135px;
+    background: blue;
+    border-radius: 50%;
+    position: relative;
+   top: -220px;
+   left: 120px;
+   border: 8px solid black; 
+}
+.circle5{
+    width: 135px;
+    height: 135px;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    top: -365px;
+    left: -120px;
+    border: 10px solid black; 
+}
+.rectangle {
+    height: 40px;
+    width: 40px;
+    background-color: #555;
+    position: relative;
+    top: -620px;
+    left: -90px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Orbitron';
+}
+.rectangle1 {
+    height: 40px;
+    width: 40px;
+    background-color: #555;
+    position: relative;
+    top: -685px;
+    font-size: 25px;
+    border-radius: 5px;
+    left: 89px;
+    font-family: 'Orbitron';
+}
+.button{
+    width:120px;
+    height:45px;
+    
+}
+
+
+
+
+
